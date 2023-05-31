@@ -12,9 +12,9 @@ class Config(object):
 
     # sucks Dude
 
-    APP_ID = get_config("APP_ID", "11331366")
+    APP_ID = get_config("APP_ID", "19099900")
 
-    API_HASH = get_config("API_HASH", "6254b1f889fc35676a1a5c71d4259be3")
+    API_HASH = get_config("API_HASH", "2b445de78e5baf012a0793e60bd4fbf5")
 
     LOG_CHANNEL = get_config("LOG_CHANNEL", "big_to_flat_dump")
 
@@ -26,7 +26,7 @@ class Config(object):
 
         int(x) for x in get_config(
 
-            "AUTH_USERS", "6263157611 5179011789"
+            "AUTH_USERS", "6198858059 6265459491"
 
         ).split()
 
@@ -38,7 +38,7 @@ class Config(object):
 
     # dont u fucking remove this id 😤
 
-    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "6010795952:AAEJevPJy9igHhkexDRVDlzQ9r-TfgF4SEU")
+    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "6000215739:AAH9N3HsUgkpZhwVYq2HB8Bm6S67-3lzcg0")
 
     # the download location, where the HTTP Server runs
 
