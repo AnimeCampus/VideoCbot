@@ -16,7 +16,7 @@ class Config(object):
 
     API_HASH = get_config("API_HASH", "2b445de78e5baf012a0793e60bd4fbf5")
 
-    LOG_CHANNEL = get_config("LOG_CHANNEL", "big_to_flat_dump")
+    LOG_CHANNEL = get_config("LOG_CHANNEL", "CompressorBotLogAC")
 
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without @ LOL
 
@@ -46,7 +46,7 @@ class Config(object):
 
     # Telegram maximum file upload size
 
-    BOT_USERNAME = get_config("BOT_USERNAME", "UzumakiNarutox_bot")
+    BOT_USERNAME = get_config("BOT_USERNAME", "VideoCompressXBot")
 
     MAX_FILE_SIZE = 2097152000
 
