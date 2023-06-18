@@ -70,9 +70,9 @@ class Config(object):
 
     # add config vars for the display progress
 
-    FINISHED_PROGRESS_STR = get_config("FINISHED_PROGRESS_STR", "▣")
+    FINISHED_PROGRESS_STR = get_config("FINISHED_PROGRESS_STR", "◻️")
 
-    UN_FINISHED_PROGRESS_STR = get_config("UN_FINISHED_PROGRESS_STR", "▢")
+    UN_FINISHED_PROGRESS_STR = get_config("UN_FINISHED_PROGRESS_STR", "◼️")
 
     LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "Log.txt")
 
